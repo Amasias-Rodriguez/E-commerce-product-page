@@ -45,3 +45,18 @@
     height: 50px;
     cursor: pointer;
 }
+
+/* MAIN */
+
+.container-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.pics-f{
+    width: 75px;
+    height: 75px;
+    padding: 10px 5px;
+    border-radius: 15px;
+}
