@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lato:wght@300;400&family=Outfit:wght@400;700&family=PT+Sans&family=Poppins&family=Rubik:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
+
 
 .header-container{
     height: 85px;
     border-bottom: 2px solid #e2dfdf;
+    padding: 0 5rem;
 }
 .header-container{
     display: flex;
@@ -51,12 +56,22 @@
 .container-main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    padding: 4rem 5rem;
+}
+
+.container-pics{
+    position: relative;
+    left: 5rem;
+}
+
+.main-pic{
+    width: 73%;
+    border-radius: 10px;
 }
 
 .pics-f{
-    width: 75px;
-    height: 75px;
+    width: 107px;
+    height: 107px;
     padding: 10px 5px;
     border-radius: 15px;
 }
